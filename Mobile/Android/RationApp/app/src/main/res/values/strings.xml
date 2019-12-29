@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RationApp</string>
+    <string name="login">Login</string>
+    <string name="name_text">Enter your name: </string>
+    <string name="password_text">Enter your password: </string>
+    <string name="do_not_have_account">Don not have an account? Sign up.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_account">Already have an account? Login.</string>
 </resources>
