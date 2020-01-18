@@ -35,7 +35,9 @@
             android:id="@+id/name_text_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
             android:hint="@string/name_text"
             >
             <com.google.android.material.textfield.TextInputEditText
@@ -54,7 +56,9 @@
             android:id="@+id/password_text_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
             android:hint="@string/password_text"
             >
             <com.google.android.material.textfield.TextInputEditText
@@ -62,14 +66,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_12sdp"
-                android:inputType="textPersonName"
+                android:inputType="numberPassword"
                 android:maxLines="1"
                 android:singleLine="true"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
+
+
         <Button
+            android:id="@+id/login_button"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
             android:text="@string/login"
@@ -77,13 +84,8 @@
             android:textSize="@dimen/_16ssp"
             android:layout_margin="@dimen/_8sdp"
             />
-        <com.google.android.material.textview.MaterialTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/do_not_have_account"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            />
+
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

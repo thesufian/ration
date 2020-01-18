@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">RationApp</string>
+
+    <string name="com_auth0_client_id">mHhZmTdbSnQcXVSTjHHUogDzn1FOY6th</string>
+    <string name="com_auth0_domain">dev-h7c7rhdn.auth0.com</string>
+
     <string name="login">Login</string>
     <string name="name_text">Enter your name: </string>
     <string name="password_text">Enter your password: </string>
